@@ -54,9 +54,11 @@ int i,j,count=0;
   while(c!= EOF)
   {
     c= getchar();
-	if(c== ' ' || c== '\t' || c== '.' || c== ';')
+	if(c== ' ' || c== '\t' || c== '.' || c== ';' || c== ",")
     {
     count++;
+	while(c== ' ' || c== '\t' || c== '.' || c== ';' || c== ",")
+		c=getchar();
     }
   }
   printf("%d",count);
