@@ -1,4 +1,4 @@
-'''
+/*
 Find the number of distinct numbers in a given sequence. The sequence need not be sorted.
 
 
@@ -17,7 +17,7 @@ Sample Input
 
 Sample Output
 3
-'''
+*/
 
 #include<stdio.h>
 void main()
